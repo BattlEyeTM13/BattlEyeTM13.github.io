@@ -5,7 +5,7 @@
 
 body {
 	font-family: oswald, helvetica, arial, sans-serif;
-	background:url(/img/bg.jpg), #000;
+	background: url(bg.jpg), #000;
 	background-size: cover;
 	background-attachment:fixed;
 }
@@ -20,7 +20,7 @@ body {
 	width:100%;
 	height:100%;
 	position:fixed;
-	background:rgba(0,0,0,.5);
+	background:rgba(0,0,0, .1);
 }
 
 header {
@@ -28,8 +28,62 @@ header {
 	height:auto;
 }
 
+img{
+	position: relative;
+	top:auto;
+	left:150px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+img.chernobil{
+
+	position: relative;
+	top:auto;
+	left: 210px;
+}
+img.melisa{
+	position: relative;
+	top:auto;
+	left: 230px;
+
+}
+img.iloveu{
+
+	position: relative;
+	top:auto;
+	left: 240px;
+}
+img.mydom{
+	position: relative;
+	top:auto;
+	left: 240px;
+}
+img.WannaCry{
+	
+	position: relative;
+	top:auto;
+	left: 240px;
+}
+img.virus{
+	position: relative;
+	top: auto;
+	left: 255px;
+}
+a:link, a:visited, a:active{
+	text-decoration: none;
+}
+a{
+	color: #41abf1;
+	font-size: 16px;
+}
+a.lista{
+	color: #f16a41;
+	font-weight: bold;
+	
+}
 header .menu {
-	background:rgba(255,255,255,.7);
+	background:#ffffffb3;
 	overflow: hidden;
 }
 
@@ -69,7 +123,7 @@ header nav ul li a:hover {
 	color:#fff;
 }
 
-.texto {
+.informacion {
 	color:#fff;
 	position:relative;
 	padding:200px 0;
@@ -77,19 +131,19 @@ header nav ul li a:hover {
 	font-weight: 400;
 }
 
-.texto h2, .texto p {
-	background: rgba(0,0,0,.8);
+.informacion h1, .informacion p {
+	background: #e4d8d81a;
 	display:inline-block;
 	padding:10px 20px;
 }
 
-.texto h2 {
+.informacion h1 {
 	font-size:40px;
 	letter-spacing: 2.5px;
 	font-weight: normal;
 }
 
-.texto p {
+.informacion p {
 	font-size:20px;
 	letter-spacing: 2.5px;
 }
@@ -111,6 +165,215 @@ header nav ul li a:hover {
 	font-family:helvetica, arial, sans-serif;
 }
 
-.principal article .fecha {
-	color:#ad2121e0;
+.cambiar{
+	color: #356686;
 }
+.negrita{
+	font-weight: bold;
+}
+.li1{
+	position: relative;
+	top: auto;
+	left: 22px;
+}
+/*Estilos para la pagina CONTACTO*/
+/*//////////////////////////////////*/
+.contact-section{
+	
+	padding: 40px 0;
+	background-color: rgb(83, 31, 31);
+  }
+  
+  .contact-section h1{
+	text-align: center;
+	color: #ddd;
+  }
+  .borde{
+	width: 100px;
+	height: 10px;
+	background: #34495e;
+	margin: 40px auto;
+  }
+  
+  .contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+  }
+  
+  .contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+  }
+  .contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+  }
+  .contact-form-btn{
+	float: right;
+	border: 0;
+	background: #34495e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+	background: #2980b9;
+  }
+.boton{
+	position: absolute;
+	top: 29px;
+	left: 9em;
+	
+}
+
+/* TARJETA ////////////// */
+
+.profile-card{
+	width: 400px;
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	top:2em;
+	left: 50em;
+  }
+  
+  .card-header{
+	background: #2c3a47;
+	padding: 80px 40px;
+  }
+  
+  .pic{
+	display: inline-block;
+	padding: 8px;
+	background: linear-gradient(130deg, #74b9ff, #e66767);
+	margin: auto;
+	border-radius: 50%;
+	background-size: 200% 200%;
+	animation: animated-gradient 2s linear infinite;
+  }
+  
+  @keyframes animated-gradient{
+	25%{
+	  background-position: left bottom;
+	}
+	50%{
+	  background-position: right bottom;
+	}
+	75%{
+	  background-position: right top;
+	}
+	100%{
+	  background-position: left top;
+	}
+  }
+  .pic img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 80%;
+  }
+  
+  .name{
+	color: #f2f2f2;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 10px 0;
+  }
+  
+  .desc{
+	font-size: 18px;
+	color: #e66767;
+  }
+  
+  .sm{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+  }
+  
+  
+  .sm button:hover{
+	color: #f74848;
+  }
+  
+  .contact-btn{
+	display: inline-block;
+	padding: 12px 50px;
+	color: #e66767;
+	border: 2px solid #e66767;
+	border-radius: 6px;
+	margin-top: 16px;
+	transition: .3s linear;
+	cursor: pointer;
+  }
+  .contact-btn1{
+
+	 display: inline-block;
+	 padding: 12px 50px;
+	 color: #e66767;
+	 border: 2px solid #e66767;
+	 border-radius: 6px;
+	 position: fixed;
+	 top: 15px;
+	 left: 30px;
+	 transition: .3s linear;
+	 cursor: pointer
+  }
+  .contact-btn:hover{
+	background: #e66767;
+	color: #f2f2f2;
+  }
+  .contact-btn1:hover{
+	background: #e66767;
+	color: #f2f2f2;
+  }
+  .card-footer{
+	background: #f4f4f4;
+	padding: 60px 10px;
+  }
+  
+  .numbers{
+	display: flex;
+	align-items: center;
+  }
+  
+  .item{
+	flex: 1;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #e66767;
+  }
+  
+  .item span{
+	display: block;
+	color: #2c3a47;
+	font-size: 30px;
+  }
+  
+  .border{
+	width: 1px;
+	height: 30px;
+	background: #bbb;
+  }
+  .moverimg{
+	  position: relative;
+	  left: auto;
+	  border-radius: 15px;
+  }
+
